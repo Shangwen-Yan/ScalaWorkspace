@@ -1,9 +1,0 @@
-import cn.tarena.pojo.Person
-
-object Demo6 {
-  def main(args: Array[String]): Unit = {
-    val p = new Person();
-    println(p.name);
-    
-  }
-}

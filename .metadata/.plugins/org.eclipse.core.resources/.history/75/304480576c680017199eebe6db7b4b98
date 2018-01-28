@@ -1,5 +1,0 @@
-
-
-class TestC {
-  private val y=9;
-}

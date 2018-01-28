@@ -1,0 +1,29 @@
+
+
+object Demo2 {
+  def main(args: Array[String]): Unit = {
+    println("开始做饭");
+    val mx =chacaipu("鱼香肉丝");
+    val food = mx("肉")
+    println("做饭完成"+food);
+    
+       
+   
+    
+    
+    
+    
+  }
+  
+  
+  def chacaipu(name:String):(String)=>String = {
+      if("宫保鸡丁"==name){
+        (food:String)=>{println("描述如何做宫保鸡丁");"做好的宫保鸡丁"}
+      }else if("鱼香肉丝"==name){
+        (food:String)=>{println("描述如何做鱼香肉丝");"做好的鱼香肉丝"}
+      }else{
+        (food:String)=>{println("嘴边做一下");"做好的随便"}
+      }
+      
+    } 
+}

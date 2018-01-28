@@ -1,0 +1,5 @@
+
+
+object TestDemo {
+  eat(food:String,m:(String)=>String)={};
+}

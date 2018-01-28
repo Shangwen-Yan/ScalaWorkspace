@@ -1,0 +1,10 @@
+
+
+object Demo7 {
+  def main(args: Array[String]): Unit = {
+    
+    val arr1 = new Array[String](3);
+    arr1(1)="111";
+    
+  }
+}

@@ -1,0 +1,9 @@
+
+
+class Person {
+  val name:String = "zhang";
+  private val age:Int = 18;
+  def eat(){
+    println(name+"chi...")
+  }
+}

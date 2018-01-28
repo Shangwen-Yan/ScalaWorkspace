@@ -1,0 +1,16 @@
+
+
+object Demo01 {
+  def main(args: Array[String]): Unit = {
+     lazy val name = "li";
+     val list = List[Int](1,3,5);
+     
+     def div(a:Int,b:Int):Int={
+       a/b;
+     }
+    println(div(1,2)); 
+    
+    
+    
+  }
+}
